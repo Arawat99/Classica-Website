@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 2rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #417B2A;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.flex .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.flex h1 {
+    margin-left: 2rem;
+}
+
+.header, .footer {
+    background-color: #417B2A;
+    padding: 15px 0;
+    text-align: center;
+}

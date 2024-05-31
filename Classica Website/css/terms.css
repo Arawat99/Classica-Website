@@ -1,0 +1,37 @@
+body.terms_body, body.terms_body a, body.terms_body h1, body.terms_body h2, body.terms_body h3, body.terms_body h4, body.terms_body h5, body.terms_body p, body.terms_body button, body.terms_body input {
+    font-family: Arial, sans-serif;
+}
+
+body.terms_body {
+    background: #FAF7D8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    max-width: none;
+    background-color: #FAF7D8;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h1, h2, h3, h4 {
+    color: #417B2A;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.footer {
+    background-color: #417B2A;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
