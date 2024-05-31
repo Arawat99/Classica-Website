@@ -1,9 +1,10 @@
+shop_db.sql
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 30, 2024 at 07:28 PM
+-- Generation Time: May 31, 2024 at 04:23 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -60,7 +61,10 @@ CREATE TABLE `cart` (
 
 INSERT INTO `cart` (`id`, `name`, `price`, `image`, `quantity`) VALUES
 (5, 'Vintage Embroidered Badge Denim Jacket', '700', 'Majesda__-_Vintage_Embroidered_Badge_Denim_Jacket-removebg-preview.png', 1),
-(6, 'Hoodie Character', '350', 'Hoodies-removebg-preview.png', 1);
+(6, 'Hoodie Character', '350', 'Hoodies-removebg-preview.png', 1),
+(7, 'Neon Nights Jacket', '350', 'Neon_Nights_Jacket.png', 1),
+(8, 'Ocean Wave Polo', '310', 'Ocean_Wave_Polo.png', 1),
+(9, 'Vintage Vibes', '269', 'Vintage_Vibes.png', 1);
 
 -- --------------------------------------------------------
 
@@ -110,7 +114,21 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`id`, `name`, `price`, `image`) VALUES
 (9, 'Vintage Embroidered Badge Denim Jacket', '700', 'Majesda__-_Vintage_Embroidered_Badge_Denim_Jacket-removebg-preview.png'),
-(10, 'Hoodie Character', '350', 'Hoodies-removebg-preview.png');
+(10, 'Hoodie Character', '350', 'Hoodies-removebg-preview.png'),
+(11, 'Azure Allure MEN', '200', 'Azure_Allure_Men.png'),
+(12, 'Azure Allure WOMEN', '210', 'Azure_Allure_Women.png'),
+(13, 'Coastal Coal', '250', 'Coastal_Cool.png'),
+(14, 'Cool Coral', '190', 'Cool_Coral.png'),
+(15, 'Golden Hour ', '200', 'Golden_Hour.png'),
+(16, 'Neon Nights Jacket', '350', 'Neon_Nights_Jacket.png'),
+(17, 'Neon Nights Pair', '499', 'Neon_Nights_pair.png'),
+(18, 'Neon Nights Shirt', '260', 'Neon_Nights_Shirt.png'),
+(19, 'Ocean Wave Polo', '310', 'Ocean_Wave_Polo.png'),
+(20, 'Rustic Charm', '240', 'Rustic_Charm.png'),
+(21, 'Sunset Breeze', '220', 'Sunset_Breeze.png'),
+(22, 'Timeless Plaid Dress', '325', 'Timeless_Plaid_Dress.png'),
+(23, 'Timeless Plaid Long Sleeve', '305', 'Timeless_Plaid_Longsleeve.png'),
+(24, 'Vintage Vibes', '269', 'Vintage_Vibes.png');
 
 -- --------------------------------------------------------
 
@@ -142,14 +160,15 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Indexes for dumped tables
+-- Dumping data for table `user`
 --
 
+INSERT INTO `user` (`id`, `firstname`, `lastname`, `username`, `email`, `password`, `profile`) VALUES
+(1, 'Thea', 'Mirandilla', 'User1', 'Thea@gmail.com', '$2y$10$Lb5MJmjiqSAIZg37z6tOsODNSFlhN7UOyc6UmT4T/7/4oDmCedKIK', 'default.jpg');
+
 --
--- Indexes for table `admin`
+-- Indexes for dumped tables
 --
-ALTER TABLE `admin`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `cart`
@@ -186,16 +205,10 @@ ALTER TABLE `user`
 --
 
 --
--- AUTO_INCREMENT for table `admin`
---
-ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
 -- AUTO_INCREMENT for table `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `order`
@@ -207,7 +220,7 @@ ALTER TABLE `order`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `reviews`
@@ -219,7 +232,7 @@ ALTER TABLE `reviews`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
