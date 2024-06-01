@@ -17,34 +17,34 @@ This is a simple e-commerce website platform for imaginary clothing company name
   - Remove/Clear Order
 
 ### Login Page
-![Login Page](Classica Website/uploaded_img/Login.png)
+![Login Page](uploaded_img/Login.png)
 
 ### Signup Page
-![Sign Up Page](Classica Website/uploaded_img/Signup.png)
+![Sign Up Page](uploaded_img/Signup.png)
 
 ### Terms and Condition Page
-![Terms and Condition](Classica Website/uploaded_img/termsAndConditions.png)
-![Terms and Condition](Classica Website/uploaded_img/termsAndCondition2.png)
-![Terms and Condition](Classica Website/uploaded_img/termsAndCondition3.png)
+![Terms and Condition](uploaded_img/termsAndConditions.png)
+![Terms and Condition](uploaded_img/termsAndCondition2.png)
+![Terms and Condition](uploaded_img/termsAndCondition3.png)
 
 ### Admin Page
-![Admin Page](Classica Website/uploaded_img/Admin.png)
-![Admin Page](Classica Website/uploaded_img/Admin2.png)
-![Admin Page](Classica Website/uploaded_img/Admin3.png)
-![Admin Page](Classica Website/uploaded_img/Admin4.png)
-![Admin Page](Classica Website/uploaded_img/Admin_Update.png)
+![Admin Page](uploaded_img/Admin.png)
+![Admin Page](uploaded_img/Admin2.png)
+![Admin Page](uploaded_img/Admin3.png)
+![Admin Page](uploaded_img/Admin4.png)
+![Admin Page](uploaded_img/Admin_Update.png)
 
 ### User View Product Page
-![View Product](Classica Website/uploaded_img/UserViewProduct.png)
+![View Product](uploaded_img/UserViewProduct.png)
 
 ### User Cart Page
-![Cart Page](Classica Website/uploaded_img/UserCart.png)
-![Cart Page](Classica Website/uploaded_img/UserCart2.png)
-![Cart Page](Classica Website/uploaded_img/UserCart3.png)
+![Cart Page](uploaded_img/UserCart.png)
+![Cart Page](uploaded_img/UserCart2.png)
+![Cart Page](uploaded_img/UserCart3.png)
 
 ### Checkout
-![Checkout Page](Classica Website/uploaded_img/Checkout.png)
-![Checkout Page](Classica Website/uploaded_img/Checkout2.png)
+![Checkout Page](uploaded_img/Checkout.png)
+![Checkout Page](uploaded_img/Checkout2.png)
 
 ## Requirements
 
